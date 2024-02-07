@@ -1,5 +1,6 @@
 package dev.phoebe.movies;
 
+//This class contains a method called run.
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
