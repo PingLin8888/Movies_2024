@@ -16,7 +16,7 @@ requests and provides responses according to the principles of Representational 
 @RestController
 @RequestMapping("/api/v1/movies")
 public class MovieController {
-    //initiate movieService for us
+    //initiate movieService
     @Autowired
     private MovieService movieService;
     //Let the framework know that this method allMovie is a get endpoint.
@@ -24,5 +24,4 @@ public class MovieController {
     public ResponseEntity<List<Movie>> getAllMovies() {
         return new ResponseEntity<>(movieService.allMovies(), HttpStatus.OK);
     }
-
 }
