@@ -31,5 +31,5 @@ public class Movie {
     //Cause the database only to store the ids of the review and the reviews will be in a seperate collection.
     //Manual reference relationship
     @DocumentReference
-    private List<Review> reviewsIds;
+    private List<Review> reviewIds;
 }
