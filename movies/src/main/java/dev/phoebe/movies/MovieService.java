@@ -7,7 +7,8 @@ import java.util.List;
 
 @Service
 public class MovieService {
-    @Autowired//initiate movieRepository for us
+    //initiate movieRepository for us
+    @Autowired
     private MovieRepository movieRepository;
     public List<Movie> allMovies() {
         return movieRepository.findAll();

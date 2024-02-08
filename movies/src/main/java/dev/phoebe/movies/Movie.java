@@ -13,11 +13,13 @@ import java.util.List;
 
 // let the framework know that this class should present each document in the movie collection.
 @Document(collection = "movies")
-@Data //take care of getter, setter and two String methods
-@NoArgsConstructor
+//take care of getter, setter and two String methods
+@Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class Movie {
-    @Id// framework identifies the unique id
+    // framework identifies the unique id
+    @Id
     private ObjectId id;
     private String imdbId;
     private String title;
