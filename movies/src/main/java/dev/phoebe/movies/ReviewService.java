@@ -10,7 +10,6 @@ import org.springframework.stereotype.Service;
 public class ReviewService {
     @Autowired
     private ReviewRepository reviewRepository;
-
     /*
     Repository as one way to talk to the database. Another way is through template.
     Some complecated action might not be implemented in repository. Here comes the template.
