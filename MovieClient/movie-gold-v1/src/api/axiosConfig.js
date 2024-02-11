@@ -6,5 +6,5 @@ export default axios.create({
     // headers:{"ngrok-skip-broswer-warning": "true"}
     baseURL: 'http://localhost:8080',
     timeout: 20000,
-    headers: {"Content-type":"application/json" }
+    headers: { "Content-type": "application/json" }
 })
