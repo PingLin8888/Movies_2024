@@ -27,7 +27,7 @@ public class Movie {
     private String trailerLink;
     private String poster;
     private List<String> genres;
-    private List<String> backdorps;
+    private List<String> backdrops;
     //Cause the database only to store the ids of the review and the reviews will be in a seperate collection.
     //Manual reference relationship
     @DocumentReference
